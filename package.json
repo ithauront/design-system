@@ -1,6 +1,15 @@
 {
+  "name": "design-sistem",
   "private": true,
   "workspaces": [
     "packages/*"
-  ]
+  ],
+  "scripts": {
+    "dev": "turbo run dev --parallel",
+    "build": "turbo run build"
+  },
+  "devDependencies": {
+    "turbo": "^2.0.11"
+  },
+  "packageManager": "npm@7.0.0"
 }
