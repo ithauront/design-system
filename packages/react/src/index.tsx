@@ -2,6 +2,7 @@ import { ComponentProps } from 'react'
 import { styled } from './styles'
 
 export * from './components/box'
+export * from './components/text'
 
 export const Buttom = styled('button', {
   fontFamily: '$default',
