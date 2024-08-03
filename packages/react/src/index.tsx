@@ -1,6 +1,8 @@
 import { ComponentProps } from 'react'
 import { styled } from './styles'
 
+export * from './components/box'
+
 export const Buttom = styled('button', {
   fontFamily: '$default',
   backgroundColor: '$ignite300',
