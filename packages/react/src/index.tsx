@@ -3,6 +3,7 @@ import { styled } from './styles'
 
 export * from './components/box'
 export * from './components/text'
+export * from './components/heading'
 
 export const Buttom = styled('button', {
   fontFamily: '$default',

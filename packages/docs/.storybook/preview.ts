@@ -9,6 +9,9 @@ const preview: Preview = {
         date: /Date$/i,
       },
     },
+      docs: {
+      page: null, // Isso define o uso da página de docs padrão
+    },
   
   },
 };
