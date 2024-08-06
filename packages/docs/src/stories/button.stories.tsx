@@ -1,12 +1,14 @@
 import { Meta, StoryObj } from '@storybook/react'
 import { Buttom, ButtomProps } from '@ignite-ui/react'
 import { ArrowRight } from 'phosphor-react'
+import { action } from '@storybook/addon-actions'
 
 export default {
   title: 'Form/Button',
   component: Buttom,
   args: {
     children: 'Send',
+    onClick: action('clicked'),
   },
 } as Meta<ButtomProps>
 
