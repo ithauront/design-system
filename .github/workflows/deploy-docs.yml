@@ -1,3 +1,10 @@
+name: Deploy docs
+
+on:
+  push:
+    branches:
+      - main
+
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
@@ -9,13 +16,14 @@ jobs:
         uses: actions/setup-node@v3
         with:
           node-version: 20
-
+      
       - run: npm ci
 
       - run: npm run build
 
       - name: Set Git Authentication
         run: git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/ithauront/design-system.git
+
 
       - name: Deploy storybook
         working-directory: ./packages/docs
