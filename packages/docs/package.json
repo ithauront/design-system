@@ -12,9 +12,9 @@
   },
   "license": "MIT",
   "dependencies": {
-    "@ignite-ui/eslint-config": "*",
-    "@ignite-ui/react": "*",
-    "@ignite-ui/tokens": "*",
+    "@gengarlax-ui/eslint-config": "*",
+    "@gengarlax-ui/react": "*",
+    "@gengarlax-ui/tokens": "*",
     "@mdx-js/rollup": "^3.0.1",
     "@storybook/addon-a11y": "^8.2.8",
     "phosphor-react": "^1.4.1",

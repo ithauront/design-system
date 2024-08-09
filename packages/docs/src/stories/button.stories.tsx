@@ -1,5 +1,5 @@
 import { Meta, StoryObj } from '@storybook/react'
-import { Buttom, ButtomProps } from '@ignite-ui/react'
+import { Buttom, ButtomProps } from '@gengarlax-ui/react'
 import { ArrowRight } from 'phosphor-react'
 import { action } from '@storybook/addon-actions'
 

@@ -7,7 +7,7 @@ import {
   lineHeights,
   radii,
   space,
-} from '@ignite-ui/tokens'
+} from '@gengarlax-ui/tokens'
 
 export const {
   keyframes,
