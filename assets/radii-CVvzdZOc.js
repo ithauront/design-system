@@ -1,0 +1,4 @@
+import{j as o}from"./jsx-runtime-j_jdvEMj.js";import{useMDXComponents as i}from"./index-BSj771as.js";import{ae as s}from"./index-Ffq6_yz9.js";import{T as e}from"./tokensGrid-BOQvgtI2.js";import{r as m}from"./index-FQKkaq7x.js";import"./index-B-o1Wr-g.js";import"./_commonjsHelpers-Cpj98o6Y.js";import"./iframe-C9Jg-ryL.js";import"../sb-preview/runtime.js";import"./index-BDlsjaCx.js";import"./index-D-8MO0q_.js";import"./index-CiRubQN2.js";import"./index-DrFu-skq.js";function r(t){const n={h1:"h1",p:"p",...i(),...t.components};return o.jsxs(o.Fragment,{children:[o.jsx(s,{title:"Tokens/Radius"}),`
+`,o.jsx(n.h1,{id:"radius",children:"Radius"}),`
+`,o.jsx(n.p,{children:"Esses são os radianos utilizados no Ignite UI."}),`
+`,o.jsx(e,{tokens:m})]})}function D(t={}){const{wrapper:n}={...i(),...t.components};return n?o.jsx(n,{...t,children:o.jsx(r,{...t})}):r(t)}export{D as default};
