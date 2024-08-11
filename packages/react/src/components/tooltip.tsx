@@ -3,12 +3,13 @@ import { styled } from '../styles'
 
 export const Tooltip = styled('div', {
   position: 'relative',
+  padding: '0 $2',
+  minWidth: '219px',
+  minHeight: '44px',
+  width: 'fit-content',
 
   borderRadius: '$sm',
   backgroundColor: '$gray900',
-  width: 'fit-content',
-  minWidth: '219px',
-  minHeight: '44px',
 
   display: 'flex',
   alignItems: 'center',
