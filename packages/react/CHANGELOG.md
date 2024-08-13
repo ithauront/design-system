@@ -1,5 +1,11 @@
 # @gengarlax-ui/react
 
+## 2.2.0
+
+### Minor Changes
+
+- added tooltip and toast components
+
 ## 2.1.0
 
 ### Minor Changes

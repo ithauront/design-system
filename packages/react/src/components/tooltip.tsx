@@ -1,7 +1,17 @@
 import { ComponentProps } from 'react'
-import { styled } from '../styles'
+import { keyframes, styled } from '../styles'
+
+const slideIn = keyframes({
+  from: {
+    transform: 'translateY(100%)',
+  },
+  to: {
+    transform: 'translateY(0)',
+  },
+})
 
 export const Tooltip = styled('div', {
+  animation: `${slideIn} 200ms ease-out`,
   position: 'relative',
   padding: '0 $2',
   minWidth: '219px',
