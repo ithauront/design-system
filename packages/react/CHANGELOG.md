@@ -1,5 +1,11 @@
 # @gengarlax-ui/react
 
+## 2.2.1
+
+### Patch Changes
+
+- 69f3788: added readme
+
 ## 2.2.0
 
 ### Minor Changes
